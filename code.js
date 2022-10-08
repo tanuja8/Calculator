@@ -19,5 +19,5 @@ function clr()
 }
 
 function del(){
-    document.getElementById("result").value=result.value.splice(0,-1);
+    document.getElementById("result").value=result.value.slice(0,-1);
 }
